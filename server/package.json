@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "this is my portfolio site",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haroldekemkpa/Harold-portfolio.git"
+  },
+  "author": "Harold O, Ekemkpa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haroldekemkpa/Harold-portfolio/issues"
+  },
+  "homepage": "https://github.com/Haroldekemkpa/Harold-portfolio#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3",
+    "nodemailer": "^7.0.5",
+    "nodemon": "^3.1.10"
+  }
+}
